@@ -7,7 +7,7 @@
         <slot name="description">{{ description }}</slot>
       </p>
       <div class="icon">
-        <slot name="image"><img src="{{ image }}"/></slot>
+        <slot name="image"><img :src="image"/></slot>
       </div>
     </a>
 </template>

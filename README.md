@@ -30,7 +30,7 @@ Install all the components:
 
 ```javascript
 import 'x-card/dist/x-card.css'
-import NxCard from 'x-card/dist/x-card.common'
+import xCard from 'x-card/dist/x-card.common'
 
 Vue.use(xCard)
 ```
@@ -60,7 +60,7 @@ In the template, use the `x-card` directive:
   <template slot="title">Lorem ipsum dolor sit.</template>
   <template slot="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam voluptate exercitationem odit neque optio quos soluta illum earum nulla molestiae.</template>
   <template slot="image">
-    <img src="http://nx-card.surge.sh/logo.png">
+    <img src="image-url">
   </template>
 </x-card>
 
