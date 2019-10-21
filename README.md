@@ -1,12 +1,6 @@
-# nx-card
+# x-card
 
-<a href="https://www.npmjs.com/package/nx-card"><img src="https://img.shields.io/npm/v/nx-card.svg"/>  <img src="https://img.shields.io/npm/dm/nx-card.svg"/>  <img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg" alt="vue2"></a>
-
-!['screenshot'](https://github.com/nazar-xda/nx-card/raw/master/card.png)
-
-Simple and beautiful card made for vue.js.
-
-[Live Demo](http://nx-card.surge.sh)
+Simple and beautiful card made for vue.js created from nx-card.
 
 ## Table of contents
 
@@ -16,7 +10,7 @@ Simple and beautiful card made for vue.js.
 # Installation
 
 ```
-npm install --save nx-card
+npm install --save x-card
 ```
 
 ## Default import
@@ -25,9 +19,9 @@ Install all the components:
 
 ```javascript
 import Vue from 'vue'
-import NxCard from 'nx-card'
+import xCard from 'x-card'
 
-Vue.use(NxCard)
+Vue.use(xCard)
 ```
 
 ## Distribution import
@@ -35,18 +29,18 @@ Vue.use(NxCard)
 Install all the components:
 
 ```javascript
-import 'nx-card/dist/nx-card.css'
-import NxCard from 'nx-card/dist/nx-card.common'
+import 'x-card/dist/x-card.css'
+import NxCard from 'x-card/dist/x-card.common'
 
-Vue.use(NxCard)
+Vue.use(xCard)
 ```
 
 ## Browser
 
 ```html
-<link rel="stylesheet" href="nx-card/dist/nx-card.css"/>
+<link rel="stylesheet" href="x-card/dist/x-card.css"/>
 <script src="vue.js"></script>
-<script src="nx-card/dist/nx-card.browser.js"></script>
+<script src="x-card/dist/x-card.browser.js"></script>
 ```
 
 The plugin should be auto-installed. If not, you can install it manually with the instructions below.
@@ -54,20 +48,20 @@ The plugin should be auto-installed. If not, you can install it manually with th
 Install all the components:
 
 ```javascript
-Vue.use(NxCard)
+Vue.use(xCard)
 ```
 
 # Usage
 
-In the template, use the `nx-card` directive:
+In the template, use the `x-card` directive:
 
 ```vue
-<nx-card url="https://vuejs.org">
+<x-card url="https://vuejs.org">
   <template slot="title">Lorem ipsum dolor sit.</template>
   <template slot="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam voluptate exercitationem odit neque optio quos soluta illum earum nulla molestiae.</template>
   <template slot="image">
     <img src="http://nx-card.surge.sh/logo.png">
   </template>
-</nx-card>
-         
+</x-card>
+
 ```

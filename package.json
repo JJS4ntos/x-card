@@ -37,5 +37,5 @@
     "prepublish": "npm run build"
   },
   "unpkg": "dist/x-card.browser.js",
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
