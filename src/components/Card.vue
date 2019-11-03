@@ -52,7 +52,7 @@ a:hover {
 }
 
 .card > h2 {
-  margin: 0 0 5px !important;
+  margin: 0 0 5px;
   color: #8f6ed5;
   text-transform: uppercase;
   font-size: 17px;
@@ -84,13 +84,13 @@ a:hover {
 }
 
 .card:hover {
-  color: #32325d !important;
+  color: #32325d;
   transform: translateY(-5px);
   box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
 }
 
 .card:hover > h2 {
-  color: #32325d !important;
+  color: #32325d;
 }
 
 .card:active {
